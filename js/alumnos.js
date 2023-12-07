@@ -72,7 +72,7 @@ createApp({
             fetch(this.url, options)
                 .then(function () {
                     alert("Registro grabado")
-                    window.location.href = "./alumnos.html";
+                    window.location.href = "./index.html";
                 })
                 .catch(err => {
                     console.error(err);
