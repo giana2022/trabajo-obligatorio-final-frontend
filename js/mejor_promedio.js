@@ -27,7 +27,7 @@ boton_calcular.addEventListener('click', ()=>{
       //agregarlo/s a la lista a mostrar
       .then(() =>{
           if(Array.isArray(mejor_alumno_escuela)){
-          mejor_alumno_escuela[0].forEach(estudiante => {
+          mejor_alumno_escuela.forEach(estudiante => {
               console.log(`- ${estudiante.nombre}`)
               mostrar.push(estudiante)
           })
