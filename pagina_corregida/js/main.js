@@ -1,7 +1,7 @@
 document.getElementById("header").innerHTML = ` <nav class="navbar navbar-expand-sm
 navbar-light bg-light">
 <div class="container">
-<a class="navbar-brand" href="index.html">Navbar</a>
+<a class="navbar-brand" href="alumnos.html">Mis alumnos</a>
 <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
 data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
 aria-expanded="false" aria-label="Toggle navigation">
@@ -10,20 +10,20 @@ aria-expanded="false" aria-label="Toggle navigation">
 <div class="collapse navbar-collapse" id="collapsibleNavId">
 <ul class="navbar-nav me-auto mt-2 mt-lg-0">
 <li class="nav-item">
-<a class="nav-link active" href="index.html" aria-current="page">Home <span
+<a class="nav-link active" href="alumnos.html" aria-current="page">Home <span
 
 class="visually-hidden">(current)</span></a>
 
 </li>
 <li class="nav-item">
-<a class="nav-link" href="#">Link</a>
+<a class="nav-link" href="#promedios">Promedios</a>
 </li>
 <li class="nav-item dropdown">
 <a class="nav-link dropdown-toggle" href="#" id="dropdownId"
-data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CRUD</a>
+data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Más funciones</a>
 <div class="dropdown-menu" aria-labelledby="dropdownId">
-<a class="dropdown-item" href="productos.html">Produtos</a>
-<a class="dropdown-item" href="#">Action 2</a>
+<a class="dropdown-item" href="productos.html">A implementar</a>
+<a class="dropdown-item" href="#">Próximamente</a>
 </div>
 </li>
 </ul>

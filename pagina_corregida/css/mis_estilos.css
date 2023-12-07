@@ -1,0 +1,136 @@
+body{
+    display: grid;
+    background-color:antiquewhite;
+    width: 100%;
+}
+
+.titulo, footer {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 2%;
+    background-color: skyblue;
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    padding-bottom: 1%;
+}
+footer {
+    margin-top: 1%;
+}
+.seccion-tit{
+    margin-top: 2%;
+}
+
+nav,.my-link{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(45, 155, 199);
+    padding: 0.5%;
+}
+.my-link {
+    margin: 2%;
+
+}
+.my-link:hover{
+    color: rgb(223, 230, 236);
+}
+
+.image-inicio {
+    display: flex;
+    width: 100%;
+    margin: 0;
+}
+.img-secundaria {
+    width: 100%;
+    justify-content: center;
+    z-index: 0;
+    margin: 0;
+}
+
+.introduccion {
+    display: flex;
+    margin-top: -35%;
+    background-color: aliceblue;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    font-size: 400%;
+    text-align: center;
+    opacity: 85%;
+
+}
+
+@media screen and (max-width: 816px) {
+    .introduccion {
+        display: flex;
+        margin-top: -35%;
+        background-color: aliceblue;
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        font-size: 200%;
+        text-align: center;
+        opacity: 85%;
+    
+    }
+}
+@media screen and (max-width: 570px) {
+    .introduccion {
+        display: flex;
+        margin-top: -50%;
+        background-color: aliceblue;
+        position: absolute;
+        z-index: 1;
+        width: 170%;
+        font-size: 150%;
+        text-align: center;
+        opacity: 85%;
+    
+
+    }
+    .img-secundaria {
+        width: 100%;
+        justify-content: center;
+        z-index: 0;
+        margin: 0;
+    }
+    
+}
+
+.app {
+    margin-left: 2%;
+}
+
+/* #nuevo_alumno, a{
+    margin-left: 2%;
+}
+
+#eliminar_alumno{
+    margin-left: 7%;
+}
+button {
+    margin-top: 1%;
+} */
+
+.mejor_promedio{
+    margin-left: 7%;
+    margin-top: 1%;
+}
+
+.promedio-bton {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+ 
+/*nuevo alumno*/
+#volver {
+    margin-top: 1%;
+    margin-left: 2%;
+    width: 70px;
+}
+
+form{
+    display: flexbox;
+    margin-top: 2%;
+    margin-left: 2%;
+}
