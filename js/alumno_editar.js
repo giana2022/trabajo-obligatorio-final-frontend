@@ -1,6 +1,6 @@
 console.log(location.search) // lee los argumentos pasados a este formulario
 var id=location.search.substr(4)
-console.log(id)
+console.log(id);
 const { createApp } = Vue
 createApp({
 data() {
