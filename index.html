@@ -33,7 +33,7 @@
               </section>
             <h1>Alumnos</h1>
             <br>
-            <a class="btn btn-primary" href="alumno_nuevo.html">Nuevo</a>
+            <a class="btn btn-primary" href="pages/alumno_nuevo.html">Nuevo</a>
             <br><br>
 
             <div v-if="error">
@@ -83,7 +83,7 @@
                                     </td> -->
                                     <td>
                                         <a class="btn btn-primary"
-                                            :href="'alumno_update.html?id='+ alumno.id">Editar</a>
+                                            :href="'pages/alumno_update.html?id='+ alumno.id">Editar</a>
                                         <button type="button" class="btn btn-danger"
                                             v-on:click="eliminar(alumno.id)">Eliminar</button>
                                     </td>
